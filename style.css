@@ -52,8 +52,8 @@ h2, h3 {
 /* Interactive map */
 .map-frame {
   width: 100%;
-  max-width: 700px;
-  height: 400px;
+  max-width: 900px;   /* 🔥 same as PNGs */
+  aspect-ratio: 16 / 9;  /* keeps proportions clean */
   display: block;
   margin: 20px auto;
   border: none;
