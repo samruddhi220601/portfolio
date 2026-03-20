@@ -7,20 +7,23 @@
     <h2>EV Chargers Buffer in Irvine, California</h2>
 
   <p>
-  This interactive map visualizes EV charging access relative to office locations using OpenStreetMap data obtained via OSMnx. 
-  The original dataset covered all of Orange County, but computing network-based walking isochrones for 5, 10, and 15 minutes around every office was slow. 
-  To keep analysis responsive while upholding policy relevance, the study focuses on Irvine due to its role as an employment cluster along a highway corridor.
+    This interactive map visualizes EV charging access relative to office locations using OpenStreetMap data via OSMnx. 
+    Due to computational constraints of generating walking isochrones (5, 10, 15 min) for all of Orange County, 
+    the analysis focuses on Irvine, a key employment corridor.
   </p>
 
   <p>
-  The map includes walking-time buffers (5, 10, 15 min), 5-minute charging catchments, and point layers for EV charging stations and office locations.
+    The map includes network-based walking buffers, 5-minute charging catchments, and point layers for EV chargers and office locations.
   </p>
 
-  <h3>EV Chargers / Population Density</h3>
-  <img src="ev_chargers_norm_popden_small_multiples_2021_2024 (1).png" />
+  <h3>Cars per Household in California (ACS 2019–2023)</h3>
+  <img src="ca_cars_per_hh_fisherjenks_counties_quality.png" class="map-img" />
 
-  <h3>Walking Buffer Map (Irvine, CA)</h3>
-  <iframe src="ev_chargers_office_map.html"></iframe>
+  <h3>EV Chargers / Population Density</h3>
+  <img src="ev_chargers_popden.png" class="map-img" />
+
+  <h3>Walking Buffer from Office Locations to Charging Stations (Irvine, CA)</h3>
+  <iframe src="ev_chargers_office_map.html" class="map-frame"></iframe>
 
   <p>
     <a href="ev_chargers_office_map.html" target="_blank">
