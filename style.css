@@ -51,12 +51,7 @@ h2, h3 {
 
 /* Interactive map */
 .map-frame {
-  width: 100%;
-  max-width: 1200px;
-  aspect-ratio: 16 / 9;   /* 🔥 perfect scaling */
-  display: block;
-  margin: 20px auto;
-  border: none;
+  height ="555" width="1205"
 }
 
 /* Links */
