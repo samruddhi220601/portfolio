@@ -52,15 +52,14 @@ h2, h3 {
 /* Interactive map */
 .map-frame {
   width: 100%;
-  max-width: 900px;   /* 🔥 same as PNGs */
-  aspect-ratio: 16 / 9;  /* keeps proportions clean */
+  max-width: 900px;
+  height: 550px;
   display: block;
   margin: 20px auto;
   border: none;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
-
 /* Links */
 a {
   color: #0077cc;
